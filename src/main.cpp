@@ -5,6 +5,10 @@
 
 void render()
 {
+	//set the clear colour(background)
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	//clear the colour and depth buffer
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
 void update()
